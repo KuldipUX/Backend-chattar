@@ -31,7 +31,6 @@ app.use(cors({
   ],
   credentials: true
 }));
-app.use(cors(corsOption));
 
 // routes
 app.use("/api/v1/user",userRoute);
